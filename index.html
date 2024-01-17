@@ -299,7 +299,7 @@
                             @click.away="keyword = '' , searchBox = false" :class="searchBox ? 'z-50' : ''">
                             <input x-data @click="searchBox = true ,  $dispatch('overlay-show')" name="search"
                                 wire:keyup.debounce.800ms="setKeyword($event.target.value)" type="text"
-                                placeholder="رصدخانه شهری چیست ؟"
+                                placeholder="دنبال چی میگردی ؟"
                                 class="w-full py-4 bg-gray-210 rounded-xl pr-12  dark:text-white dark:bg-dark-920 placeholder-dark-550 dark:placeholder-white text-xs border-none" />
                             <button type="submit" class="absolute right-5">
                                 <svg class="text-dark-550 dark:text-white" width="16" height="17" viewBox="0 0 16 17"
@@ -411,7 +411,7 @@
                                                     fill="currentColor" />
                                             </svg>
                                         </span>
-                                    </a> 
+                                    </a>
                                     <!--
                                     <a href="https://roocket.ir/register"
                                         class="sm:inline-flex hidden bg-blue-700 text-white hover:opacity-80  duration-75 font-medium sm:text-base text-xs items-center rounded-lg h-10 px-3 ">
@@ -961,7 +961,7 @@
                             class="col-span-12 z-0 xl:order-1 order-2 xl:text-right text-center xl:mt-0 sm:mt-510 mt-345">
                             <h2
                                 class="text-biscay-700 dark:text-white font-extrabold !leading-21 md:text-6xl text-5xl xl:max-w-lg-m xl:mb-4">
-                                رصدخانه‌های شهری</h2>
+                                داستان برنامه‌نویس شدنت از اینجا شروع میشه!</h2>
                             <p
                                 class="text-gray-360 dark:text-gray-910 font-normal text-2xl xl:max-w-xl-m leading-10 mb-8">
                                 یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته باشید، بقیه‌اش با راکت
