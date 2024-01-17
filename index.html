@@ -299,7 +299,7 @@
                             @click.away="keyword = '' , searchBox = false" :class="searchBox ? 'z-50' : ''">
                             <input x-data @click="searchBox = true ,  $dispatch('overlay-show')" name="search"
                                 wire:keyup.debounce.800ms="setKeyword($event.target.value)" type="text"
-                                placeholder="دنبال چی میگردی ؟"
+                                placeholder="رصدخانه شهری چیست ؟"
                                 class="w-full py-4 bg-gray-210 rounded-xl pr-12  dark:text-white dark:bg-dark-920 placeholder-dark-550 dark:placeholder-white text-xs border-none" />
                             <button type="submit" class="absolute right-5">
                                 <svg class="text-dark-550 dark:text-white" width="16" height="17" viewBox="0 0 16 17"
